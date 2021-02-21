@@ -1,5 +1,29 @@
 .place__image {
     max-width: 460px;
     max-height: 460px;
-    margin: 48px 0 0;
+    margin: 48px 40px 0 0;
 }
+
+@media all and (max-width:1024px) {
+    .place__image {
+      max-height: 440px;
+      max-width: 440px;
+      margin: 48px 32px 0 0px;
+    }
+  }
+  
+  @media all and (max-width:768px) {
+    .place__image {
+        max-height: 340px;
+        max-width: 340px;
+        margin: 48px 28px 0 0px;
+    }
+  }
+  
+  @media all and (max-width:320px) {
+    .place__image {
+        max-height: 100%;
+        max-width: 100%;
+        margin: 32px 0 0;
+    }
+  }

@@ -1,5 +1,25 @@
 .lead__image {
     width: 984px;
-    height: 615px;
     margin: 64px auto 0;
+}
+
+@media all and (max-width: 1024px){
+    .lead__image {
+        width: 928px;
+        margin-top: 56px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .lead__image {
+        width: 100%;
+        margin-top: 56px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .lead__image {
+        width: 100%;
+        margin-left: 40px;
+    }
 }
