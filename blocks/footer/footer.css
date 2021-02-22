@@ -10,11 +10,13 @@
 @media all and (max-width:768px) {
     .footer {
         margin: 88px auto 0;
+        width: 90%;
     }
 }
 
 @media all and (max-width:320px) {
     .footer {
+        margin-left: 16px;
         max-width: 186px;
         margin-top: 64px;
     }
