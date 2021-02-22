@@ -21,6 +21,7 @@
   
   @media all and (min-width: 768px) and (max-width:1023px) {
     .place__paragraph {
+        order: 4;
         max-width: 352px;
         font-size: 16px;
     }

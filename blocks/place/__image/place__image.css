@@ -13,8 +13,10 @@
   
 @media all and (min-width: 768px) and (max-width:1023px) {
     .place__image {
-        max-width: 340px;
-        margin: 48px 28px 0 0px;
+      order: 2;
+      max-height: 434px;
+      max-width: 340px;
+      margin: 48px 28px 0 0px;
     }
   }
   
