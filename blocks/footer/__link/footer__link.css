@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+.footer__link:hover {
+    transition-duration: 1s;
+    opacity: 0.3;
+}
+
 .footer__link:nth-child(5n) {
     margin-right: 0;
 }
