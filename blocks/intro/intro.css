@@ -1,6 +1,6 @@
 .intro {
     max-width: 690px;
-    margin: 114px auto 0 148px;
+    margin: 114px auto 0 100px;
     display: flex;
     flex-direction: column;
     
@@ -8,14 +8,14 @@
 
 @media all and (max-width:1024px) {
     .intro {
-        margin-top: 110px auto 0 48px;
+        margin-top: 110px auto 0;
         max-width: 720px;
     }
 }
 
 @media all and (max-width:768px) {
     .intro {
-        margin: 110px 24px 0;
+        margin: 110px auto 0;
         max-width: 720px;
     }
 }
@@ -24,7 +24,7 @@
     .intro {
         margin-top: 86px;
         max-width: 288px;
-        margin: 86px 16px 0;
+        margin: 86px auto 0;
     }
 }
 
