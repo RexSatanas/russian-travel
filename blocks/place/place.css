@@ -10,20 +10,21 @@
     margin-bottom: 0;
 }
 
-@media all and (max-width:1024px) {
+@media all and (min-width: 1024px) and (max-width:1279px) {
     .place {
       max-height: 640px;
     }
-  }
+}
   
-  @media all and (max-width:768px) {
+@media all and (min-width: 768px) and (max-width:1023px) {
     .place {
         max-height: 581px;
     }
-  }
+}
   
-  @media all and (max-width:320px) {
+@media all and (min-width: 320px) and (max-width: 767px) {
     .place {
-        max-height: 965px;
+        max-height: none;
+        flex-wrap: nowrap;
     }
-  }
+}
