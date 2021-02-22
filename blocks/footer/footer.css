@@ -1,6 +1,5 @@
 .footer {
-    max-width: 1184px;
-    max-height: 18px;
+    max-width: 90%;
     margin: 92px 48px 0;
     padding-bottom: 24px;
     display: flex;
@@ -8,3 +7,15 @@
     flex-wrap: wrap;
 }
 
+@media all and (max-width:768px) {
+    .footer {
+        margin: 88px 24px 0;
+    }
+}
+
+@media all and (max-width:320px) {
+    .footer {
+        max-width: 186px;
+        margin-top: 64px;
+    }
+}
