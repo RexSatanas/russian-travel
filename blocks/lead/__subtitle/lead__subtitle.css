@@ -13,20 +13,20 @@
 @media all and (max-width: 1024px) {
     .lead__subtitle{
         max-width: 640px;
-        margin: 32px 192px 0 ;
+        margin: 32px 192px 0;
     }
 }
 
 @media all and (max-width: 768px) {
     .lead__subtitle{
         max-width: 640px;
-        margin: 32px 64px 0 ;
+        margin: 32px 64px 0;
     }
 }
 
 @media all and (max-width: 320px) {
     .lead__subtitle{
         max-width: 640px;
-        margin: 16px 16px 0 ;
+        margin: 16px 16px 0;
     }
 }
