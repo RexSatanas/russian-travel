@@ -4,24 +4,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (min-width: 1024px) and (max-width: 1279px) {
     .lead {
         max-width: 928px;
         margin: 48px auto 0px;
     }
 }
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
     .lead {
-       max-width: 100%;
+       max-width: 768px;
        margin: 48px auto 0;
     }
 }
-
-@media all and (max-width: 230px) {
+@media all and (min-width: 230px) and (max-width: 767px) {
     .lead {
-       max-width: 100%;
-       margin: 48 auto 0;
+       max-width: 320px;
+       margin: 48px auto 0;
     }
 }

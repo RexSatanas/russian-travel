@@ -3,22 +3,21 @@
     margin: 64px auto 0;
 }
 
-@media all and (max-width: 1024px){
+@media all and (min-width: 1024px) and (max-width:1279px) {
     .lead__image {
         width: 928px;
         margin-top: 56px;
     }
 }
 
-@media all and (max-width: 768px){
+@media all and (min-width: 768px) and (max-width:1023px) {
     .lead__image {
-        width: 100%;
-        margin-top: 56px;
+        width: 768px;
     }
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 320px) and (min-width: 767px) {
     .lead__image {
-        width: 100%;
+        width: 320px;
     }
 }
