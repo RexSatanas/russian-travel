@@ -30,5 +30,6 @@
     .place__paragraph {
         max-width: 288px;
         font-size: 16px;
+        margin: 32px 16px 0;
     }
   }
