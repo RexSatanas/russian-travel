@@ -5,9 +5,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
     position: absolute;
-    opacity: .8;
+    justify-content: center;
+    opacity: .3;
 }
 
 @media all and (min-width: 1024px) and (max-width:1279px) {
