@@ -9,8 +9,8 @@
     position: absolute;
 }
 
-.cover__link:hover .cover__background {
-    opacity: .1;
+.cover__link:hover::before  {
+    opacity: .3;
   }
 
 @media all and (min-width: 1024px) and (max-width:1279px) {
